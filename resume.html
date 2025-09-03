@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <title>resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body style="background-color: black;">
+    <nav class="navbar bg-body-tertiary fixed-top" >
+        <div class="container-fluid">
+         
+          <a class="navbar-brand" href="#home">home</a>
+          <a class="navbar-brand" href="#education">Educations</a>
+          <a href="#exper" class="navbar-brand">Experience</a>
+          <a href="#reward" class="navbar-brand">Rewards</a>
+          <a href="#contact" class="navbar-brand">contact</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container" id="home">
+        <div class="profile">
+            <div class="profile_container">
+                <div class="profile_img">
+                    <img src="myprofile.jpg"  alt="Ayush Mehta">
+                </div>
+                <div>
+                    <h1 class="profile_name">
+                       <span class="profile_name_firstname" >Ayush</span>
+                       <span class="profile_name_secondname">Mehta</span>
+                    </h1>
+                    <p class="profile_title">Software Developer</p>
+                    <p class="discription">Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Cupiditate, iure voluptas 
+                        repellat earum ad dicta similique obcaecati labore
+                        </p>
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Download Pdf of resume">
+                            <a class="downloadbtn" href="resume.jpg" download="resume.com">DOWNLOAD</a>
+                          </button>
+                           <!-- <a class="downloadbtn" href="resume.jpg" download="resume.com">download btn</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="group-1">
+            <div class="skills">
+                <h3 class="title">expertise</h3>
+                <ul class="skill_list discription ">
+                    <li>JavaScript</li>
+                    <li>PHP & Wordpress</li>
+                    <li>React JS</li>
+                    <li>HTML CSS</li>
+                    <li>MERN STACK</li>
+                </ul>
+            </div>
+            <div class="ref">
+                <h3 class="title">
+                    Reference
+                </h3>
+                <div class="ref_items">
+                    <h4 class="ref_name">Uday Mehta</h4>
+                    <p class="discription">Lorem ipsum dolor sit amet,
+                         consectetur adipisicing elit. Expedita
+                          necessitatibus ut 
+                         consequatur quam perferendis, error nulla
+                          numquam dignissimos
+                          non consectetur neque fugiat molestias?
+                           Ipsum, ipsam error. 
+                        Iusto voluptatum deleniti id?</p>
+                </div>
+                <div class="ref_items">
+                    <h4 class="ref_name">Nibha Devi</h4>
+                    <p class="discription">Lorem ipsum dolor sit amet,
+                         consectetur adipisicing elit. Expedita
+                          necessitatibus ut 
+                         consequatur quam perferendis, error nulla
+                          numquam dignissimos
+                          non consectetur neque fugiat molestias?
+                           Ipsum, ipsam error. 
+                        Iusto voluptatum deleniti id?</p>
+                </div>
+               
+            </div>
+            <div class="edu" id="education">
+                <h3 class="title">Educations</h3>
+                <div class="edu_items">
+                    <p class="item_pretitle">2027-2029</p>
+                    <h4 class="item_title">M.Tech in CSE</h4>
+                    <p class="item_subtitle">IIT Bombay</p>
+                </div>
+                <div class="edu_items">
+                    <p class="item_pretitle">2023-2027</p>
+                    <h4 class="item_title">B.Tech in CSE</h4>
+                    <p class="item_subtitle">GNIOT institue of tecnology</p>
+                </div>
+            </div>
+
+            <div class="certification">
+                <h3 class="title">
+                    certification
+                </h3>
+                <div class="certi_items">
+                <p class="item_pretitle">2023</p>    
+                 <h4 class="item_title">Frontend Developer</h4>
+                 <p class="discription">Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                     Laborum molestias culpa placeat
+                      nam eaque consequuntur non in pariatur? 
+                      Quos vel saepe inventore dolore maxime 
+                      consectetur, 
+                    qui non eveniet aliquid alias!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="group-2">
+            <div class="exper"  id="exper">
+                <h3 class="title">Experience</h3>
+                <div class="exper_items">
+                    <p class="item_pretitle">2024.present</p>
+                  <h4 class="item_title">My Captain Softwere LTD</h4>  
+                  <p class="discription">Lorem ipsum, dolor sit
+                     amet consectetur 
+                    adipisicing elit. Maiores assumenda facere
+                     voluptate iure
+                     voluptas corrupti repellendus ea eligendi 
+                     debitis voluptatibus, 
+                     ipsam rerum fugit eveniet cupiditate 
+                    incidunt quasi natus sequi itaque.</p>
+                    
+                </div>
+                <div class="exper_items">
+                    <p class="item_pretitle" style="margin-top: 2rem;">2024.present</p>
+                  <h4 class="item_title">My Captain Softwere LTD</h4>  
+                  <p class="discription">Lorem ipsum, dolor sit
+                     amet consectetur 
+                    adipisicing elit. Maiores assumenda facere
+                     voluptate iure
+                     voluptas corrupti repellendus ea eligendi 
+                     debitis voluptatibus, 
+                     ipsam rerum fugit eveniet cupiditate 
+                    incidunt quasi natus sequi itaque.</p>
+                    
+                </div>
+            </div>
+            <div class="rewards" id="reward">
+                <h3 class="title">rewards</h3>
+                <div class="reward_items">
+                    <p class="item_pretitle">
+                        2024.present
+                    </p>
+                    <h4 class="item_title">My Captain Softwere LTD</h4>
+                    <p class="discription">Lorem ipsum, dolor 
+                        sit amet consectetur adipisicing elit. 
+                        In provident quia at voluptatem impedit
+                         odio nisi sed, dolorem delectus rem quaerat 
+                         voluptas veniam animi beatae cum tempora 
+                         consectetur.
+                         Dignissimos, est.</p>
+                </div>
+                <div class="reward_items">
+                    <p class="item_pretitle" style="margin-top: 2rem;">
+                        2024.present
+                    </p>
+                    <h4 class="item_title">My Captain Softwere LTD</h4>
+                    <p class="discription">Lorem ipsum, dolor 
+                        sit amet consectetur adipisicing elit. 
+                        In provident quia at voluptatem impedit
+                         odio nisi sed, dolorem delectus rem quaerat 
+                         voluptas veniam animi beatae cum tempora 
+                         consectetur.
+                         Dignissimos, est.</p>
+                </div>
+            </div>
+            <div class="intrest">
+                <h3 class="title">interest</h3>
+                <div class="int_items">
+                    <div class="int_item">
+                    <i data-feather="music"></i>
+                    <span>music</span>
+                    </div>
+                    <div class="int_item">
+                        <i data-feather="book"></i>
+                        <span>book</span>
+                        </div>
+                        <div class="int_item">
+                            <i data-feather="map"></i>
+                            <span>traveling</span>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="footer">
+        <div class="group-3">
+            <div class="contact" id="contact">
+                <h3 class="title">contact</h3>
+                <div class="contact_info">
+                   <p class="discription">
+                    Ayush Mehta <br>
+                    
+                   </p> 
+                   <p class="discription">
+                    7838420551<br>
+                    <br>
+                    25/2 E-block Kulesara,Garter Noida,<br>
+                    201306,Uttar Pradesh 
+                   </p>
+                   
+                   <p class="discription">
+                    mehtaayushkumar217@gamil.com
+                   </p> 
+                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Click here to contact</button>
+                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="social">
+                <div class="title">
+                    social
+                </div>
+                <div class="social_items">
+                    <div class="social_item">
+                    <i data-feather="instagram"></i>
+                    <span>ayush_mehta_07</span>
+                    </div>
+                    <div class="social_item">
+                        <i data-feather="twitter"></i>
+                        <span>ayush_mehta_077</span>
+                        </div>
+                        <div class="social_item">
+                            <i data-feather="facebook"></i>
+                            <span>ayush_mehta_077</span>
+                            </div>
+            </div>
+        </div>
+    </div>
+    
+
+ 
+    <script>
+        feather.replace();
+      </script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>
